@@ -68,7 +68,7 @@ body {
 }
 
 .rank_wheel {
-  width: 80%;
+  min-width: 70%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@ body {
 */
 
 .control_panel {
-  width: 20%;
+  min-width: 20%;
   height: 100vh;
   background-color: white;
   display: flex;
@@ -120,4 +120,10 @@ body {
 
 .lyrics img {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: none;
+  }
 }
