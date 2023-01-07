@@ -123,7 +123,8 @@ body {
 }
 
 .cd_disk img {
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -146,7 +147,7 @@ body {
 
 .strong_text {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .weakest_text {
@@ -167,7 +168,7 @@ body {
 
 .lyrics_speaker_img img {
   width: auto;
-  height: 100%;
+  max-height: 100%;
 }
 
 /* for mobile 
