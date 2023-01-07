@@ -3,13 +3,13 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<script src="myscript.js"></script>
 </head>
 <body>
-  <div>
+  <div class="rank_page_menu">
     <img class="nav_img" src="./image/logo.png">
-    <hr class="nav_bar_separator">
     <div class="nav_bar">
-      <a href="./rank.html">Rank</a>
+      <a class="active" href="./rank.html">Rank</a>
       <a href="./index.html">Home</a>
       <a href="./library.html">Library</a>
       <a href="./play.html">Play</a>
@@ -17,11 +17,11 @@
   </div>
 
   <div class="rank_page">
-    <div class="rank_wheel">
-      <img src="./image/rank_wheel.png">
+    <div class="rank_wheel" onclick="myFunction()">
+      <img src="./image/rank_wheel.png" >
     </div>
 
-    <div class="control_panel">
+    <div id="control_panel" class="control_panel">
       <img src="./image/control_panel.png">
     </div>
   </div>

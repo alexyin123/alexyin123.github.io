@@ -3,18 +3,21 @@
 <head>
 <title>Alex's Page</title>
 <link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <script src="myscript.js"></script>
 </head>
 <body>
   <div>
     <img class="nav_img" src="./image/logo.png">
-    <hr class="nav_bar_separator">
-    <div class="nav_bar">
+    <div class="nav_bar" id="myTopnav">
       <a href="./rank.html">Rank</a>
-      <a href="./index.html">Home</a>
+      <a class="active" href="./index.html">Home</a>
       <a href="./library.html">Library</a>
       <a href="./play.html">Play</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
   </div>
   <div class="background_image">
