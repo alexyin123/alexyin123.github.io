@@ -6,7 +6,7 @@
 body {
   margin: 0px;
   background-color: #3c3b4d;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Amagro Bold', sans-serif;
 }
 
@@ -151,9 +151,14 @@ body {
   justify-content: center;
 }
 
+.sentence p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .strong_text {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .weakest_text {
