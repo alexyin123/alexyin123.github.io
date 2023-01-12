@@ -24,7 +24,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   min-height: 1.5em;
-  background-color: #6997BF;
+  background-color: #2F6073;
 }
 
 .nav_bar a {
@@ -34,12 +34,12 @@ body {
 }
 
 .nav_bar a:hover {
-  background-color: #2F6073;
+  background-color: #6997BF;
   color: black;
 }
 
 .nav_bar a.active {
-  background-color: #2F6073;
+  background-color: #6997BF;
   color: white;
 }
 
