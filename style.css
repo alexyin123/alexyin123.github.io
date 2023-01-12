@@ -15,7 +15,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  max-width: 15vw;
+  max-width: 30vw;
   padding: 15px;
 }
 
@@ -154,6 +154,7 @@ body {
 .sentence p {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .strong_text {
